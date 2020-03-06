@@ -1,0 +1,17 @@
+#include "main.h"
+#include "math.h"
+#include "stdlib.h"
+#include <string.h>
+#include "stm32f1xx.h"
+
+#define Width 400
+
+extern uint16_t Data[300];
+extern  uint16_t Data_cnt;
+extern uint8_t start_flag;
+
+
+void start_accept();
+void stop_accept();
+void UsrtPrint(char *s,uint16_t n);
+
